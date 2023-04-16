@@ -1,0 +1,14 @@
+Question: C++ program to take input from user and print its sum
+Answer:
+#include <iostream>
+using namespace std;
+int main() {
+  int a, b, sum;
+  cout << "first number is :";
+  cin >> a;
+  cout << " second number is :";
+  cin >> b;
+  sum = a + b;
+  cout << "Sum is :" << sum;
+  return 0;
+}
