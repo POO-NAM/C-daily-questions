@@ -1,0 +1,17 @@
+Question: C++ program to swap values of two variables
+Answer: 
+#include <iostream>
+using namespace std;
+int main() {
+  int a, b, c;
+  cout << "first variable :";
+  cin >> a;
+  cout << "second variable :";
+  cin >> b;
+  c = a;
+  a = b;
+  b = c;
+  cout << "now first variable is :" << a <<endl;
+  cout << "now second variable is:" << b;
+  return 0;
+}
