@@ -1,0 +1,15 @@
+Question: Write C++ program to multiply two floating point numbers
+Answer: 
+
+#include <iostream>
+using namespace std;
+int main() {
+  float a, b, c;
+  cout << "first number : ";
+  cin >> a;
+  cout << " second number : ";
+  cin >>b ;
+  c = a*b;
+  cout << "result is : " << c;
+  return 0; 
+}
