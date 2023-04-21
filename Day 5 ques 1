@@ -1,0 +1,12 @@
+Question: C++ program to convert feet into meter? 
+Answer: 
+#include <iostream>
+using namespace std;
+int main() {
+  double x;
+  cout << " Enter value in feet : ";
+  cin >> x;
+  x = 0.3048*x;
+  cout << " Value in metres is: " << x ;
+  return 0;
+}
