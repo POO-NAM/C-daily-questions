@@ -1,0 +1,12 @@
+Question: C++ program to convert farenheit into celcius? 
+Answer:
+#include <iostream>
+using namespace std;
+int main() {
+  double x;
+  cout << " Enter value in farenheit : ";
+  cin >> x;
+  x = ((x-32)*5)/9;
+  cout << " Value in celcius is: " << x ;
+  return 0;  
+}
